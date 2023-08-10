@@ -7,6 +7,7 @@
     <UserSecretsId>53d820f6-9773-43f7-8909-55909a128384</UserSecretsId>
     <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
     <DockerfileContext>.</DockerfileContext>
+    <SonarQubeExclude>true</SonarQubeExclude>
   </PropertyGroup>
 
   <ItemGroup>
@@ -19,7 +20,6 @@
     <PackageReference Include="OpenTelemetry.Exporter.Console" Version="1.5.1" />
     <PackageReference Include="OpenTelemetry.Extensions.Hosting" Version="1.5.1" />
     <PackageReference Include="OpenTelemetry.Instrumentation.AspNetCore" Version="1.5.1-beta.1" />
-    <PackageSource Include="MyCustomNuGetSource" Version="1.0.0" />
   </ItemGroup>
 
 </Project>
