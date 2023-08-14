@@ -1,0 +1,4 @@
+<SonarQubeAnalysisProperties xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.sonarsource.com/msbuild/integration/2015/1">
+  <Property Name="sonar.host.url">http://172.30.35.205:9000</Property>
+  <Property Name="sonar.token">[3a7f0483165df7d1953976e79c06e8ac261e3524]</Property>
+</SonarQubeAnalysisProperties>
