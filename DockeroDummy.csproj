@@ -7,7 +7,7 @@
     <UserSecretsId>53d820f6-9773-43f7-8909-55909a128384</UserSecretsId>
     <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
     <DockerfileContext>.</DockerfileContext>
-    <SonarQubeExclude>true</SonarQubeExclude>
+    <SonarQubeConfigPath>sonar-project.properties</SonarQubeConfigPath>
   </PropertyGroup>
 
   <ItemGroup>
