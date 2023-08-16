@@ -20,6 +20,7 @@
     <PackageReference Include="OpenTelemetry.Exporter.Console" Version="1.5.1" />
     <PackageReference Include="OpenTelemetry.Extensions.Hosting" Version="1.5.1" />
     <PackageReference Include="OpenTelemetry.Instrumentation.AspNetCore" Version="1.5.1-beta.1" />
-  </ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+</ItemGroup>
 
 </Project>
