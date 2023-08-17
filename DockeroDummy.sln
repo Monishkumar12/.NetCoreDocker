@@ -6,9 +6,9 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DockeroDummy", "DockeroDummy.csproj", "{0360EC9F-8AB2-412E-A07E-99EFEDC083AC}"
 {
 SonarQubeProperties = preSolution
-sonar.projectKey = 3a7f0483165df7d1953976e79c06e8ac261e3524
+sonar.projectKey = sqa_945310b96edfa8238e8bd8e5e3bf3302b8e12e10
 sonar.projectName = sonar
-sonar.projectVersion = 1.0
+sonar.projectVersion = main
 sonar.sources = .
 sonar.exclusions = bin/,obj/,.github/workflows/,Properties/,k8s/,tmp/
 sonar.inclusions = **Employee.cs,**Program.cs,**WeatherForecast.cs,Controllers/**
