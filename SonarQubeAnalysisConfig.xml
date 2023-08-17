@@ -1,0 +1,10 @@
+<SonarQubeAnalysisConfig xmlns="http://www.sonarsource.com/msbuild/integration/2015/1">
+  <Server>
+    <!-- URL of your SonarQube server -->
+    <Url>https://sonar-dotnet.apps.cluster-bmp49.bmp49.sandbox518.opentlc.com/</Url>
+  </Server>
+  <SonarQubeConfig>
+    <!-- Optional: Path to the SonarQube properties file -->
+  <SonarQubePropertiesPath>sonar-project.properties</SonarQubePropertiesPath> 
+  </SonarQubeConfig>
+</SonarQubeAnalysisConfig>
