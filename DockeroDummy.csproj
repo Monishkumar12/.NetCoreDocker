@@ -7,7 +7,11 @@
     <UserSecretsId>53d820f6-9773-43f7-8909-55909a128384</UserSecretsId>
     <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
     <DockerfileContext>.</DockerfileContext>
-    <SonarQubeConfigPath>sonar-project.properties</SonarQubeConfigPath>
+    <SonarQubeProperties>
+      sonar.host.url = https://sonar-dotnet.apps.cluster-bmp49.bmp49.sandbox518.opentlc.com/
+      sonar.login = admin
+      sonar.password = admin@123
+    </SonarQubeProperties>
   </PropertyGroup>
 
   <ItemGroup>
@@ -21,11 +25,7 @@
     <PackageReference Include="OpenTelemetry.Extensions.Hosting" Version="1.5.1" />
     <PackageReference Include="OpenTelemetry.Instrumentation.AspNetCore" Version="1.5.1-beta.1" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
-    <PackageReference Include="SonarQube.MSBuild" Version="4.6.2" />
-    <PackageReference Include="NuGet.Client" Version="4.7.1">
-        <Version Condition=" '$(PackageVersion)' == '' ">4.7.1</Version>
-        <SourceUrl>https://api.nuget.org/v3/index.json</SourceUrl>
-    </PackageReference>
+    <PackageReference Include="SonarQube.MSBuild" Version="5.13.0" />
 </ItemGroup>
 
 </Project>
