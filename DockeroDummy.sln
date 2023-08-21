@@ -22,9 +22,12 @@ EndGlobalSection
 GlobalSection(ExtensibilityGlobals) = postSolution
 SolutionGuid = {61B83441-E933-4AB3-93E2-978082D0B0F8}
 EndGlobalSection
-
-SonarQubeProperties = preSolution
-sonar.host.url = https://sonar-dotnet.apps.cluster-bmp49.bmp49.sandbox518.opentlc.com/
+GlobalSection(SonarQubeProperties) = preSolution
+sonar.host.url = http://172.30.35.205:9000
 sonar.login = admin
 sonar.password = admin@123
+EndGlobalSection
+GlobalSection(NuGetPackageSources) = preSolution
+    NuGet Official|https://api.nuget.org/v3/index.json = true
+    MyGet|https://www.myget.org/F/nuget/api/v3/index.json = true
 EndGlobalSection
