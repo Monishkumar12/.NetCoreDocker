@@ -8,11 +8,6 @@
     <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
     <DockerfileContext>.</DockerfileContext>
     <PackageSources>https://api.nuget.org/v3/index.json</PackageSources>
-    <SonarQubeProperties>
-      sonar.host.url = http://172.30.35.205:9000
-      sonar.login = admin
-      sonar.password = admin@123
-    </SonarQubeProperties>
   </PropertyGroup>
 
   <ItemGroup>
