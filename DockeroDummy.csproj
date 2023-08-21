@@ -8,7 +8,7 @@
     <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
     <DockerfileContext>.</DockerfileContext>
     <SonarQubeProperties>
-      sonar.host.url = https://sonar-dotnet.apps.cluster-bmp49.bmp49.sandbox518.opentlc.com/
+      sonar.host.url =  http://172.30.35.205:9000
       sonar.login = admin
       sonar.password = admin@123
     </SonarQubeProperties>
