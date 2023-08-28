@@ -1,0 +1,14 @@
+apiVersion: route.openshift.io/v1
+kind: Route
+metadata:
+  labels:
+    app: {{.Values.route.name}}
+  name: {{.Values.route.appname}}
+spec:
+  port:
+    targetPort: {{.Values.route.port}}
+  to:
+    kind: Service
+    name: {{.Values.route.appname}}
+    weight: 100
+  path: /api/employee/getemployeelist
