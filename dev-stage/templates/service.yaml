@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Service
+metadata:
+  labels:
+    app: {{.Values.service.name}}
+  name: {{.Values.service.appname}}
+spec:
+  type: ClusterIP
+  ports:
+    - name: 8080-tcp
+      port: {{.Values.service.port}}
+      targetPort: {{.Values.service.port}}
+      protocol: TCP
+  selector:
+    app: {{.Values.service.name}}
