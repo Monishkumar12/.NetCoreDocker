@@ -3,20 +3,20 @@
 # Replace with your desired values
 deployment:
  appname: dot-net
- projectname: rohanp
+ projectname: monish
  name: dot-net
  tag: 3
  port: 8080
- imagename: quay.io/rohanp/dotnet:0b71ddc006637797232a59d3b648d783cd830830
+ imagename: quay.io/monishkumar/dotnet-ocp:0b71ddc006637797232a59d3b648d783cd830830
 
 
 service:
   port: 8080
   name: dot-net
-  projectname: rohanp
+  projectname: monish
   appname: dot-net
 
 route:
  appname: dot-net
- project: rohanp
+ project: monish
  port: 8080-tcp
