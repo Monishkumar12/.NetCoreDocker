@@ -7,7 +7,7 @@ deployment:
  name: dot-net
  tag: 3
  port: 8080
- imagename: quay.io/monishkumar/dotnet-ocp:7123969ea054a722cc0153707fe7426bade22abc
+ imagename: quay.io/monishkumar/dotnet-ocp:583f610a80ebc27ce2b83df4e4c1623092cfc6d1
 
 
 service:
