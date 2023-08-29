@@ -2,7 +2,7 @@
 
 # Replace with your desired values
 deployment:
- appname: dot-net
+ appname: dot-helm
  projectname: monish
  name: dot-net
  tag: 3
@@ -12,11 +12,11 @@ deployment:
 
 service:
   port: 8080
-  name: dot-net
+  name: dot-helm
   projectname: monish
   appname: dot-net
 
 route:
- appname: dot-net
+ appname: dot-helm
  project: monish
  port: 8080-tcp
