@@ -14,7 +14,7 @@ service:
   port: 8080
   name: dot-helm
   projectname: monish
-  appname: dot-net
+  appname: dot-helm
 
 route:
  appname: dot-helm
